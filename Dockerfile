@@ -19,6 +19,7 @@ COPY plugins /opt/archivesspace/plugins
 
 EXPOSE 8080 8081 8089
 
+# update with the list of plugins to initialize as needed
 RUN /opt/archivesspace/scripts/initialize-plugin.sh plugin_1 \
  && /opt/archivesspace/scripts/initialize-plugin.sh plugin_2
 
