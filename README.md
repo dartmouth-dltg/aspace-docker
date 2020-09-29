@@ -9,7 +9,7 @@ can also be triggered.
 
 The setup assumes that the base ArchivesSpace application is located in a subdirectory
 named 'archivesspace', that your plugins are located in a subdirectory names 'plugins',
-and that the mysql java connector is in top level directory. 
+and that the mysql java connector is in the top level directory. 
 
 Note that Dartmouth also runs an Apache container in front of the ArchivesSpace container
 for additional access control.
@@ -24,7 +24,7 @@ mkdir /tmp/archivesspace-mounts/data
 # Secrets for remote database
 echo 'REMOVED' > /tmp/archivesspace-mounts/secrets/DB_PASS_FILE
 
-# Secret for local database
+# Secrets for local database
 echo 'REMOVED' > /tmp/archivesspace-mounts/secrets/DB_PASS_FILE_LOCAL
 ```
 

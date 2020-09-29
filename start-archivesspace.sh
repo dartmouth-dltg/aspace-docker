@@ -12,6 +12,5 @@
 #rm -rf /opt/archivesspace/data/solr_home/*
 #rm -rf /opt/archivesspace/data/tmp/*
 
-
 #start archivesspace
 /opt/archivesspace/archivesspace.sh
